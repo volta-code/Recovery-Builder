@@ -13,10 +13,10 @@ on:
   workflow_dispatch:
 
 env:
-  MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git
-  DEVICE: mi8937
-  DT_LINK: https://github.com/kardebayan/twrp_device_xiaomi_mi8937-new.git
-  DT_PATH: device/xiaomi/mi8937
+  MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -twrp-11.0
+  DEVICE: cattail 
+  DT_LINK: https://github.com/twrpdtgen/android_device_xiaomi_cattail/tree/cattail-user-11-RP1A.200720.011-V12.5.6.0.RCTINXM-release-keys
+  DT_PATH: device/xiaomi/cattail
   TARGET: recoveryimage
   TZ: Asia/Kolkata
 
